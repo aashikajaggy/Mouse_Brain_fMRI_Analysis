@@ -1,1 +1,1 @@
-# CONN_Toolbox_and_fMRI_Analysis
+# Mouse Brain fMRI Analysis
