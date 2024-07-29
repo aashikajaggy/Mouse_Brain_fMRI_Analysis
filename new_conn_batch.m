@@ -1,5 +1,6 @@
 clear BATCH;
 
+%creating conn batch file to set up conn project 
 %variables
 
 project_name = 'SMOOTHED_conn_fmri_42.mat';
