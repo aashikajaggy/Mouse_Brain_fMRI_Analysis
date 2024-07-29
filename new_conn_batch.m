@@ -2,23 +2,6 @@ clear BATCH;
 
 %variables
 
-%bandpass filter -  allows a specific range of
-%frequencies to pass through while attenuating frequencies outside the
-%range - we do bandpass of 0 to 10
-%
-%pipeline does denoising (what is pipeline?) - we do the denoising -
-%minimizing grainy spots and discoloration in images while minimizing loss
-%of quality 
-%ROI to ROI connectivity (resting state functional activity) -
-%characterizes connectivity among pre-defind sets of regions
-%can't do parallel processing with ICA but can do with seed-based
-%ICA (independent component analysis) maps represent measures of different networks expression and
-%connectivity at each voxel
-%Can find the ICA for different subjects 
-%Can change the p-value in the results 
-%command conn_batch(BATCH) defubes experiment information and runs
-%processing steps programmatically
-
 project_name = 'SMOOTHED_conn_fmri_42.mat';
 
 n=42; %number of subjects
