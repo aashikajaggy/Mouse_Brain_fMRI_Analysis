@@ -66,7 +66,7 @@ end
 hold off;
 
 
-% Add labels and legend
+%Add labels for axis
 xlabel('z-scores');
 ylabel('Probability Density');
 
