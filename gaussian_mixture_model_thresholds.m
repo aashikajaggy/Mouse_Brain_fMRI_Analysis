@@ -4,7 +4,7 @@ spm('Defaults', 'FMRI');
 original_path = '/Users/bass/Desktop/new_conn_data/gmm_results/unzipped_components/';
 
 %here we are looping through all the statistical maps, generating gaussian mixture models with 3 components, and then calculating thresholds for each component
-%labeling of the legend is inaccurate so look at the file gaussian_mixture_model_shaded.m
+%labeling of the legend is inaccurate so look at the file gaussian_mixture_model_shaded.m to correct the legend
 
 for j=0:9
     nii = spm_vol(strcat(original_path, 'dr_stage3_ic000', num2str(j), '_tstat2.nii'));
