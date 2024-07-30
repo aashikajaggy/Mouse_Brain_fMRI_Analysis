@@ -3,6 +3,7 @@
 **Preprocessing Pipeline**
 
 **Group ICA Analysis**
+
 Contains commands for the following ...
 - Running group ICA on FSL MELODIC, including steps to prepare input files
 - Running ICA FIX, automated classification of signals and noise in ICA components
