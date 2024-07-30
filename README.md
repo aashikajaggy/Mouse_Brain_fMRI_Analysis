@@ -1,12 +1,16 @@
 # Mouse Brain fMRI Analysis
 
 **Preprocessing Pipeline**
+
 _Structural Image (T1)_
+
 - Using generated T1 masks from deep learning algorithm to mask T1s
 - Orienting T1s with RAI orientation and T2s with RPI orientation
 - Generating rotation matrix to align T1 with atlas and apply transformation
 - Resampling image to 0.1 by 0.1 by 0.1 mm
+  
 _Functional Image_
+
 -Correcting for bias field nonuniformity
 -Registering every functional volume (1 echo) to the first volume and then the atlas
 -Resampling fMRI images to 0.3 by 0.3 by 0.3 mm
