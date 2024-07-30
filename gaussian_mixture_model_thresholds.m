@@ -191,11 +191,11 @@ for k=10:19
     yval = yfun(mu2, var2, val);
     
     if(val<0 && val<-0.1)
-        disp("deactivation_value!")
+        disp("deactivation_value")
         disp(val)
     end
     if(val>0 && val>0.1)
-        disp("activation_value!")
+        disp("activation_value")
         disp(val)
     end
 
@@ -206,11 +206,11 @@ for k=10:19
     %disp(val)
     %disp(yval);
     if(val<0 && val<-0.1)
-        disp("deactivation_value!")
+        disp("deactivation_value")
         disp(val)
     end
     if(val>0 && val>0.1)
-        disp("activation_value!")
+        disp("activation_value")
         disp(val)
     end
 
@@ -219,11 +219,11 @@ for k=10:19
     yval = yfun(mu1, var1, val);
  
     if(val<0 && val<-0.1)
-        disp("deactivation_value!")
+        disp("deactivation_value")
         disp(val)
     end
     if(val>0 && val>0.1)
-        disp("activation_value!")
+        disp("activation_value")
         disp(val)
     end
 end
