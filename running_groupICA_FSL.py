@@ -40,6 +40,7 @@ os.system("fsleyes -ad -s melodic /Users/bass/Desktop/new_conn_data/RESAMPLED_SM
 
 #FOURTH STEP - run an ICA fix classifier or do manual classification of ICA components (distinguish signal and noise)
 #for FIX - need to set up a directory (.ica)
+#this can be an optional step
 os.system("fix melodic.ica /Users/bass/Downloads/Fix_base_ic40_v2.RData 20")
 
 #FIFTH STEP - set up dual regression contrast 
