@@ -12,8 +12,11 @@ _Structural Image (T1)_
 _Functional Image_
 
 -Correcting for bias field nonuniformity
+
 -Registering every functional volume (1 echo) to the first volume and then the atlas
+
 -Resampling fMRI images to 0.3 by 0.3 by 0.3 mm
+
 -Merging volumes together and generating a BOLD time series
 
 **Group ICA Analysis on FSL**
