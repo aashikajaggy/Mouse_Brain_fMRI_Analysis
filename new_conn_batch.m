@@ -115,9 +115,6 @@ for i = (1:size(covariate_headers, 2))
     BATCH.Setup.subjects.effects{i} = covariate_data;
 end
 
-
-
-
 %Creates local copy of files
 Setup.localcopy = 1;
 
@@ -135,24 +132,3 @@ BATCH.Setup.analysisunits = 1;
 BATCH.Setup.voxelmask = 1;
 BATCH.Setup.voxelmaskfile = atlas_mask_filename;
 
-
-
-%{
-%BATCH.Setup.preprocessing note: (NOT DOING THIS)
-
-%Denoising
-
-%NOTE: Ignore steps bcuz denoising was done in preproc pipeline. If you want denoising to be done, set BATCH.Denoising.done = 1 and edit options below.
-BATCH.Denoising.detrending = 0;
-BATCH.Denoising.despiking = 0;
-BATCH.Denoising.regbp = 1;
-BATCH.Denoising.confounds.names = ['Grey Matter', 'White Matter', 'CSF']; 
-BATCH.Denoising.done = 0;
-
-%Run First-level Analysis (ROI-to-ROI and Seed-to-Voxel)
-BATCH.Analysis.done = 1;
-
-%Group ICA
-BATCH.vvAnalysis.name = 'ICA_01';
-BATCH.vvAnalysis.measures = 'group-ICA';
-%}
