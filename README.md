@@ -13,7 +13,7 @@ Contains commands for the following ...
 - Identifying statistically significant corrected p-value t-statistic maps for each component 
 
 **Additional Resampling & Smoothing**
-- Using ANTS applytransform command to resample 0.3 by 0.3 by 0.3 mm voxel dimensions in fMRI images to 0.5 by 0.5 by 0.5 mm, which should allow the fMRI image to more closely match the voxel dimensions of the T1 images (1:1.5 ratio).
+- Using ANTS applytransform command to resample 0.3 by 0.3 by 0.3 mm voxel dimensions in fMRI images to 0.5 by 0.5 by 0.5 mm, which should allow the preprocessed fMRI image (errts) to more closely match the voxel dimensions of the T1 images (1:1.5 ratio).
 - Smoothing images by 2 voxels (can be tuned)
 
 **Gaussian Mixture Model Thresholded**
