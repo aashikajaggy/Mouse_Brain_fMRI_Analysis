@@ -163,7 +163,6 @@ for i in range(begin_volume,int(bold_data.shape[3])):  #iterate through all the 
   
 
 #TimeSeriesAssemble : Outputs a 4D time-series image from a list of 3D volumes.
-os.system(f"/Users/bass/Applications/ANTS/ImageMath 4 {out4D} TimeSeriesAssemble 1 0 {out_vol_atlas_reg}*_res.nii.gz") # concatenate volumes of fmri
 # from masked_sliced folder for that paricular subj concatenating all time series abd saving in  output folder
 output_path =  mypath + 'output/'
 if not os.path.isdir(output_path) : os.mkdir(output_path)
